@@ -31,7 +31,7 @@ export default function HeroSection() {
             {/* Action Buttons */}
             <div className="flex flex-wrap items-center gap-4 mb-14 w-full sm:w-auto">
               <a
-                href="https://wa.me/6281234567890?text=Halo%20Markicu,%20saya%20ingin%20konsultasi%20cuci%20sepatu"
+                href="https://wa.me/6283829876116?text=Halo%20Markicu,%20saya%20ingin%20konsultasi%20cuci%20sepatu"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-white text-zinc-950 hover:bg-zinc-100 px-6 py-3.5 rounded-full text-sm font-semibold tracking-wide transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-white/5"
@@ -76,7 +76,7 @@ export default function HeroSection() {
               <div className="relative rounded-xl overflow-hidden mb-4 shadow-lg">
                 <ImagePlaceholder
                   label="Foto / Video Showcase: Live Foam Cleaning Treatment Specimen"
-                  src="/images/hero-specimen.jpg"
+                  src="/images/hero-specimen.webp"
                   alt="Live Treatment Specimen - Foam Extraction"
                   aspectRatio="aspect-[4/3]"
                   priority={true}

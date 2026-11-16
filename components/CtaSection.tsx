@@ -37,7 +37,7 @@ export default function CtaSection() {
         <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-xs font-mono text-zinc-400">
           <div className="inline-flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-            <span>WhatsApp Direct: +62 812-3456-7890</span>
+            <span>WhatsApp Direct: +62 838-2987-6116</span>
           </div>
           <span className="hidden sm:inline text-zinc-600">•</span>
           <div>

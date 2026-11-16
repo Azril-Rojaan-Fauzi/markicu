@@ -82,7 +82,7 @@ export default function Navbar() {
           ))}
           <div className="pt-2">
             <a
-              href="https://wa.me/6281234567890?text=Halo%20Markicu,%20saya%20ingin%20konsultasi%20cuci%20sepatu"
+              href="https://wa.me/6283829876116?text=Halo%20Markicu,%20saya%20ingin%20konsultasi%20cuci%20sepatu"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-1.5 w-full bg-white text-zinc-950 py-3 rounded-full text-sm font-semibold"

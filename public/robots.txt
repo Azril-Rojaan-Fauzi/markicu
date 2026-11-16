@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://markicu.vercel.app/sitemap.xml

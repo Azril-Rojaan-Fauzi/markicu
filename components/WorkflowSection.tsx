@@ -10,7 +10,7 @@ export default function WorkflowSection() {
       description:
         "Chat with us through WhatsApp and send your shoe photos for instant condition evaluation and estimated pricing.",
       linkText: "IMMEDIATE REPLY",
-      linkUrl: "https://wa.me/6281234567890?text=Halo%20Markicu,%20mau%20tanya%20estimasi%20cuci%20sepatu",
+      linkUrl: "https://wa.me/6283829876116?text=Halo%20Markicu,%20mau%20tanya%20estimasi%20cuci%20sepatu",
     },
     {
       number: "02",
@@ -37,7 +37,7 @@ export default function WorkflowSection() {
       description:
         "Your fresh sneakers are delivered to your doorstep sealed in custom breathable dust bags, ready for your next outfit.",
       linkText: "FREE 7KM DROP-OFF",
-      linkUrl: "https://wa.me/6281234567890?text=Halo%20Markicu,%20apakah%20lokasi%20saya%20masuk%20free%20pickup?",
+      linkUrl: "https://wa.me/6283829876116?text=Halo%20Markicu,%20apakah%20lokasi%20saya%20masuk%20free%20pickup?",
     },
   ];
 

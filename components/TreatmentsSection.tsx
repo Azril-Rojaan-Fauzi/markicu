@@ -104,7 +104,7 @@ export default function TreatmentsSection() {
               {/* Consult Link */}
               <div className="pt-4 mt-4 border-t border-zinc-200/50 flex justify-end">
                 <a
-                  href={`https://wa.me/6281234567890?text=Halo%20Markicu,%20saya%20mau%20konsultasi%20layanan%20${encodeURIComponent(item.name)}`}
+                  href={`https://wa.me/6283829876116?text=Halo%20Markicu,%20saya%20mau%20konsultasi%20layanan%20${encodeURIComponent(item.name)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1 text-xs font-bold tracking-wider uppercase text-blue-600 hover:text-blue-700 group-hover:translate-x-0.5 transition-transform"

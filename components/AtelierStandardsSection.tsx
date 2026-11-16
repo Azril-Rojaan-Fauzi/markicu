@@ -42,7 +42,7 @@ export default function AtelierStandardsSection() {
             </p>
 
             <a
-              href="https://wa.me/6281234567890?text=Halo%20Markicu,%20saya%20ingin%20cuci%20sepatu"
+              href="https://wa.me/6283829876116?text=Halo%20Markicu,%20saya%20ingin%20cuci%20sepatu"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-white text-zinc-950 hover:bg-zinc-100 px-7 py-3.5 rounded-full text-sm font-semibold tracking-wide transition-all duration-200 shadow-md hover:scale-[1.02] active:scale-[0.98]"
@@ -70,7 +70,7 @@ export default function AtelierStandardsSection() {
               <div className="rounded-xl overflow-hidden shadow-lg">
                 <ImagePlaceholder
                   label="Foto Workshop / Fasilitas Lab Perawatan Sepatu Markicu"
-                  src="/images/atelier-workshop.jpg"
+                  src="/images/atelier-workshop.webp"
                   alt="Laboratory Grade Workshop Markicu"
                   aspectRatio="aspect-[16/8]"
                   dark={true}

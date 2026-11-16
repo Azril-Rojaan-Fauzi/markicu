@@ -34,7 +34,7 @@ export default function CareRegimenSection() {
       priceUsd: "$35",
       priceIdr: "Rp 85.000",
       imageLabel: "Foto Treatment: Keseluruhan Deep Clean",
-      imageSrc: "/images/regimen-deep-clean.jpg",
+      imageSrc: "/images/regimen-deep-clean.webp",
     },
     {
       id: "fast-clean",
@@ -50,7 +50,7 @@ export default function CareRegimenSection() {
       priceUsd: "$25",
       priceIdr: "Rp 60.000",
       imageLabel: "Foto Treatment: Fast Clean Quick Exterior Refresh",
-      imageSrc: "/images/regimen-fast-clean.jpg",
+      imageSrc: "/images/regimen-fast-clean.webp",
     },
     {
       id: "all-white",
@@ -66,7 +66,7 @@ export default function CareRegimenSection() {
       priceUsd: "$40",
       priceIdr: "Rp 95.000",
       imageLabel: "Foto Treatment: All White Shoes Brightening Care",
-      imageSrc: "/images/regimen-all-white.jpg",
+      imageSrc: "/images/regimen-all-white.webp",
     },
   ];
 
@@ -141,7 +141,7 @@ export default function CareRegimenSection() {
                 </div>
 
                 <a
-                  href={`https://wa.me/6281234567890?text=Halo%20Markicu,%20saya%20tertarik%20dengan%20paket%20${encodeURIComponent(pkg.title)}`}
+                  href={`https://wa.me/6283829876116?text=Halo%20Markicu,%20saya%20tertarik%20dengan%20paket%20${encodeURIComponent(pkg.title)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={`Book ${pkg.title}`}

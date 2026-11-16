@@ -26,11 +26,27 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: "Cuci Sepatu",
+    url: "https://markicu.vercel.app/",
+    description: "Jasa cuci dan perawatan sepatu.",
+    telephone: "+6283829876116",
+    image: "https://markicu.vercel.app/images/hero-specimen.webp",
+  };
+
   return (
     <html
       lang="id"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="min-h-full flex flex-col bg-[#0A0A0A] text-[#EDEDED] selection:bg-[#3B82F6] selection:text-white">
         {children}
       </body>
