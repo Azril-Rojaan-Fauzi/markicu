@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "MARKICU. | Professional Sneaker Care & Restoration Atelier",
   description:
     "Modern archival footwear preservation, clinical sneaker restoration, and bespoke leather nourishment. Engineered with surgical discipline and architectural care.",
+  verification: {
+    google: "MTH6iWTq0kaIGbA12h-45EfjIrILQHhIk_G8HXWoUB0",
+  },
 };
 
 export default function RootLayout({
