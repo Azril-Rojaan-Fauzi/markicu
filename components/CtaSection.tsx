@@ -23,7 +23,7 @@ export default function CtaSection() {
         {/* CTA Button */}
         <div className="mb-10">
           <a
-            href="https://wa.me/6281234567890?text=Halo%20Markicu,%20saya%20ingin%20jadwalkan%20cuci%20sepatu"
+            href="https://wa.me/6283829876116?text=Halo%20Markicu,%20saya%20ingin%20konsultasi%20cuci%20sepatu"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-white text-zinc-950 hover:bg-zinc-100 px-8 py-4 rounded-full text-sm sm:text-base font-bold tracking-wide transition-all duration-200 shadow-xl hover:scale-105 active:scale-95"

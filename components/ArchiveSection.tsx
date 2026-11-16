@@ -8,7 +8,9 @@ interface SpecimenItem {
   shoeName: string;
   condition: string;
   beforeImageLabel: string;
+  beforeSrc: string;
   afterImageLabel: string;
+  afterSrc: string;
   treatment: string;
   turnaround: string;
 }
@@ -21,7 +23,9 @@ export default function ArchiveSection() {
       shoeName: "AIR JORDAN 1 RETRO HIGH",
       condition: "Severe sole oxidation, ground mud ingrained into toe-box leather.",
       beforeImageLabel: "Foto BEFORE: Jordan 1 Kotor & Teroksidasi",
+      beforeSrc: "/images/archive-aj1-before.jpg",
       afterImageLabel: "Foto AFTER: Jordan 1 Bersih & Unyellowed",
+      afterSrc: "/images/archive-aj1-after.jpg",
       treatment: "Keseluruhan + Deoxidize",
       turnaround: "3 Days",
     },
@@ -31,7 +35,9 @@ export default function ArchiveSection() {
       shoeName: "COMMON PROJECTS ACHILLES",
       condition: "Surface scuffs on Italian nappa, dull graying laces and midsole.",
       beforeImageLabel: "Foto BEFORE: CP Achilles Kusam & Scuffed",
+      beforeSrc: "/images/archive-cp-before.jpg",
       afterImageLabel: "Foto AFTER: CP Achilles Putih Bersih Mengkilap",
+      afterSrc: "/images/archive-cp-after.jpg",
       treatment: "All White + Leather Balm",
       turnaround: "2 Days",
     },
@@ -41,7 +47,9 @@ export default function ArchiveSection() {
       shoeName: "YEEZY BOOST 350 TRIPLE WHITE",
       condition: "Mud saturated translucent outsole and deeply stained knit weave.",
       beforeImageLabel: "Foto BEFORE: Yeezy 350 Berlumpur & Menguning",
+      beforeSrc: "/images/archive-yeezy-before.jpg",
       afterImageLabel: "Foto AFTER: Yeezy 350 Bersih Cerah",
+      afterSrc: "/images/archive-yeezy-after.jpg",
       treatment: "Ultrasonic Knit Clean",
       turnaround: "3 Days",
     },
@@ -97,29 +105,31 @@ export default function ArchiveSection() {
                 {/* Before / After Dual Image Container */}
                 <div className="grid grid-cols-2 gap-2 mb-6">
                   {/* Before Side */}
-                  <div className="relative group">
+                  <div className="relative group rounded-xl overflow-hidden shadow-xs">
                     <ImagePlaceholder
                       label={item.beforeImageLabel}
-                      sublabel="Foto Before"
+                      src={item.beforeSrc}
+                      alt={`${item.shoeName} Before Treatment`}
                       aspectRatio="aspect-[4/5]"
                       dark={false}
-                      className="bg-zinc-100 border-zinc-200 p-2"
+                      className="bg-zinc-100"
                     />
-                    <span className="absolute bottom-2.5 left-2.5 text-[10px] font-mono font-bold bg-zinc-950 text-white px-2 py-0.5 rounded-sm uppercase tracking-wider shadow-sm">
+                    <span className="absolute bottom-2.5 left-2.5 z-10 text-[10px] font-mono font-bold bg-zinc-950/90 backdrop-blur-xs text-white px-2 py-0.5 rounded-sm uppercase tracking-wider shadow-sm">
                       BEFORE
                     </span>
                   </div>
 
                   {/* After Side */}
-                  <div className="relative group">
+                  <div className="relative group rounded-xl overflow-hidden shadow-xs">
                     <ImagePlaceholder
                       label={item.afterImageLabel}
-                      sublabel="Foto After"
+                      src={item.afterSrc}
+                      alt={`${item.shoeName} After Treatment`}
                       aspectRatio="aspect-[4/5]"
                       dark={false}
-                      className="bg-blue-50/50 border-blue-200 p-2"
+                      className="bg-blue-50/50"
                     />
-                    <span className="absolute bottom-2.5 right-2.5 text-[10px] font-mono font-bold bg-blue-600 text-white px-2 py-0.5 rounded-sm uppercase tracking-wider shadow-sm">
+                    <span className="absolute bottom-2.5 right-2.5 z-10 text-[10px] font-mono font-bold bg-blue-600/95 backdrop-blur-xs text-white px-2 py-0.5 rounded-sm uppercase tracking-wider shadow-sm">
                       AFTER
                     </span>
                   </div>

@@ -10,14 +10,11 @@ export default function HeroSection() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
-          
+
           {/* Left Column: Typography & CTAs */}
           <div className="lg:col-span-7 flex flex-col items-start">
             {/* Top pill badge */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-zinc-800 bg-zinc-900/90 text-[11px] font-mono tracking-wider text-zinc-400 mb-6">
-              <span className="w-1.5 h-1.5 rounded-full bg-blue-500 animate-pulse" />
-              <span>PROFESSIONAL SNEAKER CARE // EST. 2019</span>
-            </div>
+
 
             {/* Giant Heading */}
             <h1 className="text-4xl sm:text-6xl xl:text-7xl font-black tracking-tight text-white leading-[1.08] mb-6">
@@ -73,22 +70,18 @@ export default function HeroSection() {
           <div className="lg:col-span-5 w-full">
             <div className="relative bg-[#121214] border border-zinc-800 rounded-2xl p-4 sm:p-5 shadow-2xl overflow-hidden">
               {/* Card Header Tag */}
-              <div className="flex items-center justify-between mb-4">
-                <div className="inline-flex items-center gap-1.5 text-[11px] font-mono uppercase tracking-wider text-emerald-400 bg-emerald-950/40 border border-emerald-900/60 px-3 py-1 rounded-full">
-                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping" />
-                  <span>CERTIFIED MASTER ATELIER</span>
-                </div>
-                <Sparkles className="w-4 h-4 text-zinc-600" />
-              </div>
 
-              {/* Showcase Image Placeholder */}
-              <div className="relative rounded-xl overflow-hidden mb-4">
+
+              {/* Showcase Image */}
+              <div className="relative rounded-xl overflow-hidden mb-4 shadow-lg">
                 <ImagePlaceholder
                   label="Foto / Video Showcase: Live Foam Cleaning Treatment Specimen"
-                  sublabel="Ukuran rekomendasi: 600 x 480 px (Close-up detail sneaker care)"
+                  src="/images/hero-specimen.jpg"
+                  alt="Live Treatment Specimen - Foam Extraction"
                   aspectRatio="aspect-[4/3]"
+                  priority={true}
                   dark={true}
-                  className="bg-zinc-950/80 border-zinc-800"
+                  className="bg-zinc-950 border-zinc-800"
                 />
               </div>
 

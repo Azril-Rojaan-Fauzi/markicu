@@ -15,7 +15,7 @@ interface RegimenPackage {
   priceUsd: string;
   priceIdr: string;
   imageLabel: string;
-  recommendedSize: string;
+  imageSrc: string;
 }
 
 export default function CareRegimenSection() {
@@ -33,8 +33,8 @@ export default function CareRegimenSection() {
         "Complete shoe cleaning inside and out. Deep insole sterilization, unthreaded lace bath, upper extraction, and outsole de-gumming.",
       priceUsd: "$35",
       priceIdr: "Rp 85.000",
-      imageLabel: "Foto Treatment: Keseluruhan Deep Clean (Before/After atau Tampak Sepatu Bersih)",
-      recommendedSize: "400 x 260 px",
+      imageLabel: "Foto Treatment: Keseluruhan Deep Clean",
+      imageSrc: "/images/regimen-deep-clean.jpg",
     },
     {
       id: "fast-clean",
@@ -50,7 +50,7 @@ export default function CareRegimenSection() {
       priceUsd: "$25",
       priceIdr: "Rp 60.000",
       imageLabel: "Foto Treatment: Fast Clean Quick Exterior Refresh",
-      recommendedSize: "400 x 260 px",
+      imageSrc: "/images/regimen-fast-clean.jpg",
     },
     {
       id: "all-white",
@@ -66,14 +66,14 @@ export default function CareRegimenSection() {
       priceUsd: "$40",
       priceIdr: "Rp 95.000",
       imageLabel: "Foto Treatment: All White Shoes Brightening Care",
-      recommendedSize: "400 x 260 px",
+      imageSrc: "/images/regimen-all-white.jpg",
     },
   ];
 
   return (
     <section id="services" className="w-full bg-[#F9FAFB] text-zinc-900 py-20 lg:py-28 border-t border-zinc-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Section Header */}
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-16">
           <div className="max-w-2xl">
@@ -107,14 +107,15 @@ export default function CareRegimenSection() {
                   </span>
                 </div>
 
-                {/* Package Image Placeholder */}
-                <div className="mb-6">
+                {/* Package Image */}
+                <div className="mb-6 rounded-xl overflow-hidden shadow-xs">
                   <ImagePlaceholder
                     label={pkg.imageLabel}
-                    sublabel={`Ukuran: ${pkg.recommendedSize}`}
+                    src={pkg.imageSrc}
+                    alt={pkg.title}
                     aspectRatio="aspect-[16/10]"
                     dark={false}
-                    className="bg-zinc-50 border-zinc-200"
+                    className="bg-zinc-100"
                   />
                 </div>
 
@@ -156,7 +157,7 @@ export default function CareRegimenSection() {
         {/* Centered CTA Button */}
         <div className="flex justify-center">
           <a
-            href="https://wa.me/6281234567890?text=Halo%20Markicu,%20saya%20ingin%20konsultasi%20layanan%20regimen"
+            href="https://wa.me/6283829876116?text=Halo%20Markicu,%20saya%20ingin%20konsultasi%20cuci%20sepatu"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-zinc-950 hover:bg-zinc-800 text-white px-8 py-3.5 rounded-full text-sm font-semibold tracking-wide transition-all duration-200 shadow-md hover:scale-[1.02] active:scale-[0.98]"

@@ -5,7 +5,7 @@ import { ArrowUpRight, Clock, MessageSquare } from "lucide-react";
 export default function Footer() {
   return (
     <footer className="w-full bg-[#050505] text-white border-t border-zinc-900 overflow-hidden relative">
-      
+
       {/* Huge Giant Watermark */}
       <div className="w-full select-none pointer-events-none py-10 lg:py-16 text-center overflow-hidden border-b border-zinc-900/80">
         <span className="text-[18vw] font-black tracking-tighter leading-none text-zinc-900/60 block uppercase whitespace-nowrap">
@@ -15,7 +15,7 @@ export default function Footer() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-8">
-          
+
           {/* Column 1: Atelier Brand Info */}
           <div className="md:col-span-5 flex flex-col items-start">
             <div className="flex items-center gap-2 mb-4">
@@ -69,7 +69,7 @@ export default function Footer() {
             <ul className="space-y-3.5 text-xs sm:text-sm">
               <li>
                 <a
-                  href="https://wa.me/6281234567890"
+                  href="https://wa.me/6283829876116"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-zinc-300 hover:text-white transition-colors group"
@@ -81,15 +81,15 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/markicu.shoes/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-zinc-300 hover:text-white transition-colors"
                 >
                   <svg className="w-4 h-4 text-pink-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
-                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
-                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
                   </svg>
                   <span>@markicu.shoes</span>
                 </a>

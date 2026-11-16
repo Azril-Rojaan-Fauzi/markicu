@@ -66,14 +66,17 @@ export default function AtelierStandardsSection() {
                 </h3>
               </div>
 
-              {/* Workshop Image Placeholder */}
-              <ImagePlaceholder
-                label="Foto Workshop / Fasilitas Lab Perawatan Sepatu Markicu"
-                sublabel="Ukuran rekomendasi: 700 x 360 px (Peralatan modern, rak sepatu, & lab steril)"
-                aspectRatio="aspect-[16/8]"
-                dark={true}
-                className="bg-zinc-950/70 border-zinc-800"
-              />
+              {/* Workshop Image */}
+              <div className="rounded-xl overflow-hidden shadow-lg">
+                <ImagePlaceholder
+                  label="Foto Workshop / Fasilitas Lab Perawatan Sepatu Markicu"
+                  src="/images/atelier-workshop.jpg"
+                  alt="Laboratory Grade Workshop Markicu"
+                  aspectRatio="aspect-[16/8]"
+                  dark={true}
+                  className="bg-zinc-950 border-zinc-800"
+                />
+              </div>
             </div>
 
             {/* Lower Grid: 3 Feature Cards */}

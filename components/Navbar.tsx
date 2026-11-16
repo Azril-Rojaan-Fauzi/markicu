@@ -33,11 +33,10 @@ export default function Navbar() {
               <Link
                 key={link.label}
                 href={link.href}
-                className={`text-sm px-4 py-1.5 rounded-full transition-all duration-200 ${
-                  link.active
+                className={`text-sm px-4 py-1.5 rounded-full transition-all duration-200 ${link.active
                     ? "bg-zinc-800 text-white font-medium shadow-xs"
                     : "text-zinc-400 hover:text-white hover:bg-zinc-800/50"
-                }`}
+                  }`}
               >
                 {link.label}
               </Link>
@@ -47,7 +46,7 @@ export default function Navbar() {
           {/* WhatsApp CTA Button */}
           <div className="hidden md:flex items-center">
             <a
-              href="https://wa.me/6281234567890?text=Halo%20Markicu,%20saya%20ingin%20konsultasi%20cuci%20sepatu"
+              href="https://wa.me/6283829876116?text=Halo%20Markicu,%20saya%20ingin%20konsultasi%20cuci%20sepatu"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 bg-white text-zinc-950 hover:bg-zinc-100 px-5 py-2.5 rounded-full text-sm font-semibold tracking-tight transition-all duration-200 shadow-sm hover:shadow-md hover:scale-[1.02] active:scale-[0.98]"

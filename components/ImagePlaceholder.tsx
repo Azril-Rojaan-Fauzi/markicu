@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { Image as ImageIcon } from "lucide-react";
 
 interface ImagePlaceholderProps {
@@ -7,6 +8,9 @@ interface ImagePlaceholderProps {
   aspectRatio?: string;
   className?: string;
   dark?: boolean;
+  src?: string;
+  alt?: string;
+  priority?: boolean;
 }
 
 export default function ImagePlaceholder({
@@ -15,7 +19,29 @@ export default function ImagePlaceholder({
   aspectRatio = "aspect-video",
   className = "",
   dark = false,
+  src,
+  alt,
+  priority = false,
 }: ImagePlaceholderProps) {
+  if (src) {
+    return (
+      <div
+        className={`relative w-full ${aspectRatio} rounded-xl overflow-hidden group bg-zinc-900 ${className}`}
+      >
+        <Image
+          src={src}
+          alt={alt || label}
+          fill
+          priority={priority}
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+        />
+        {/* Subtle vignette shadow gradient */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none" />
+      </div>
+    );
+  }
+
   return (
     <div
       className={`relative w-full ${aspectRatio} rounded-xl border border-dashed flex flex-col items-center justify-center p-4 text-center transition-all duration-300 group ${
