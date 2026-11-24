@@ -9,15 +9,15 @@ export default function CtaSection() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <span className="block text-xs font-mono uppercase tracking-widest text-zinc-400 mb-4">
-          DIRECT CONCIERGE LINE
+          LAYANAN KONSULTASI LANGSUNG
         </span>
 
         <h2 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight text-white uppercase leading-tight mb-6">
-          READY TO GIVE YOUR SHOES A NEW LOOK?
+          SIAP BUAT SEPATU ANDA BERSIH SEPERTI BARU?
         </h2>
 
         <p className="text-sm sm:text-base text-zinc-400 leading-relaxed max-w-2xl mx-auto mb-10">
-          Send photos of your footwear to our WhatsApp concierge for immediate evaluation, turnaround scheduling, and complimentary pickup booking.
+          Kirimkan foto sepatu Anda ke WhatsApp kami untuk evaluasi langsung, penjadwalan pengerjaan, dan pemesanan antar-jemput gratis.
         </p>
 
         {/* CTA Button */}
@@ -28,7 +28,7 @@ export default function CtaSection() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-white text-zinc-950 hover:bg-zinc-100 px-8 py-4 rounded-full text-sm sm:text-base font-bold tracking-wide transition-all duration-200 shadow-xl hover:scale-105 active:scale-95"
           >
-            <span>CHAT WITH US ON WHATSAPP</span>
+            <span>CHAT DENGAN KAMI DI WHATSAPP</span>
             <ArrowUpRight className="w-5 h-5" />
           </a>
         </div>
@@ -37,11 +37,11 @@ export default function CtaSection() {
         <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-xs font-mono text-zinc-400">
           <div className="inline-flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-            <span>WhatsApp Direct: +62 838-2987-6116</span>
+            <span>WhatsApp Langsung: +62 838-2987-6116</span>
           </div>
           <span className="hidden sm:inline text-zinc-600">•</span>
           <div>
-            <span>Instant Response: Mon - Sat (09:00 - 20:00 WIB)</span>
+            <span>Respon Cepat: Senin - Sabtu (09:00 - 20:00 WIB)</span>
           </div>
         </div>
       </div>

@@ -23,39 +23,39 @@ export default function Footer() {
               <span className="text-[11px] font-mono tracking-widest text-zinc-500 uppercase">ATELIER</span>
             </div>
             <p className="text-xs sm:text-sm text-zinc-400 leading-relaxed max-w-sm">
-              Modern archival footwear preservation, clinical sneaker restoration, and bespoke leather nourishment. Engineered with surgical discipline and architectural care.
+              Layanan preservasi dan restorasi sneaker modern, pembersihan klinis, serta nutrisi material kulit. Dikerjakan dengan ketelitian tinggi dan dedikasi profesional.
             </p>
           </div>
 
           {/* Column 2: Navigation Links */}
           <div className="md:col-span-3">
             <h4 className="text-xs font-mono uppercase tracking-widest text-zinc-400 mb-5">
-              NAVIGATION
+              NAVIGASI
             </h4>
             <ul className="space-y-3 text-xs sm:text-sm">
               <li>
                 <Link href="#home" className="text-zinc-400 hover:text-white transition-colors">
-                  Home
+                  Beranda
                 </Link>
               </li>
               <li>
                 <Link href="#services" className="text-zinc-400 hover:text-white transition-colors">
-                  Services &amp; Tiers
+                  Layanan &amp; Paket
                 </Link>
               </li>
               <li>
                 <Link href="#treatments" className="text-zinc-400 hover:text-white transition-colors">
-                  Price List
+                  Daftar Harga
                 </Link>
               </li>
               <li>
                 <Link href="#archive" className="text-zinc-400 hover:text-white transition-colors">
-                  Our Results &amp; Archive
+                  Hasil &amp; Arsip
                 </Link>
               </li>
               <li>
                 <Link href="#about" className="text-zinc-400 hover:text-white transition-colors">
-                  About Us
+                  Tentang Kami
                 </Link>
               </li>
             </ul>
@@ -64,7 +64,7 @@ export default function Footer() {
           {/* Column 3: Concierge & Atelier */}
           <div className="md:col-span-4">
             <h4 className="text-xs font-mono uppercase tracking-widest text-zinc-400 mb-5">
-              CONCIERGE &amp; ATELIER
+              KONTAK &amp; WORKSHOP
             </h4>
             <ul className="space-y-3.5 text-xs sm:text-sm">
               <li>
@@ -75,7 +75,7 @@ export default function Footer() {
                   className="inline-flex items-center gap-2 text-zinc-300 hover:text-white transition-colors group"
                 >
                   <MessageSquare className="w-4 h-4 text-emerald-400" />
-                  <span>WhatsApp Direct Line</span>
+                  <span>WhatsApp Langsung</span>
                   <ArrowUpRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
                 </a>
               </li>
@@ -96,7 +96,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2 text-zinc-400">
                 <Clock className="w-4 h-4 text-zinc-500" />
-                <span>Mon - Sat: 10:00 - 20:00</span>
+                <span>Senin - Sabtu: 10:00 - 20:00 WIB</span>
               </li>
             </ul>
           </div>
@@ -106,10 +106,10 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-12 mt-12 border-t border-zinc-900 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-zinc-500">
           <div>
-            &copy; 2025 MARKICU. SHOE CLEANING. All rights reserved.
+            &copy; 2025 MARKICU. SHOE CLEANING. Hak cipta dilindungi undang-undang.
           </div>
           <div className="tracking-widest uppercase">
-            PRESERVATION &bull; RESTORATION &bull; CRAFTSMANSHIP
+            PRESERVASI &bull; RESTORASI &bull; KEAHLIAN
           </div>
         </div>
 

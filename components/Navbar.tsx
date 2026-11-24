@@ -8,11 +8,11 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    { label: "Home", href: "#home", active: true },
-    { label: "Services", href: "#services" },
-    { label: "Price List", href: "#treatments" },
-    { label: "Our Results", href: "#archive" },
-    { label: "About Us", href: "#about" },
+    { label: "Beranda", href: "#home", active: true },
+    { label: "Layanan", href: "#services" },
+    { label: "Daftar Harga", href: "#treatments" },
+    { label: "Hasil Kami", href: "#archive" },
+    { label: "Tentang Kami", href: "#about" },
   ];
 
   return (

@@ -18,14 +18,14 @@ export default function HeroSection() {
 
             {/* Giant Heading */}
             <h1 className="text-4xl sm:text-6xl xl:text-7xl font-black tracking-tight text-white leading-[1.08] mb-6">
-              YOUR SHOES<br />
-              DESERVE<br />
-              BETTER <span className="text-blue-500">CARE.</span>
+              SEPATU ANDA<br />
+              LAYAK MENDAPAT<br />
+              PERAWATAN <span className="text-blue-500">TERBAIK.</span>
             </h1>
 
             {/* Subtitle */}
             <p className="text-base sm:text-lg text-zinc-400 font-normal leading-relaxed max-w-xl mb-10">
-              Professional shoe cleaning, clinical stain extraction, and deep archival nourishment to keep your favorite sneakers fresh, immaculate, and ready for rotation.
+              Pembersihan sepatu profesional, ekstraksi noda mendalam, dan nutrisi material premium agar sneaker favorit Anda selalu bersih, segar, dan siap dipakai kembali.
             </p>
 
             {/* Action Buttons */}
@@ -36,7 +36,7 @@ export default function HeroSection() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-white text-zinc-950 hover:bg-zinc-100 px-6 py-3.5 rounded-full text-sm font-semibold tracking-wide transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-white/5"
               >
-                <span>CONTACT US ON WHATSAPP</span>
+                <span>HUBUNGI KAMI DI WHATSAPP</span>
                 <ArrowUpRight className="w-4 h-4" />
               </a>
 
@@ -44,7 +44,7 @@ export default function HeroSection() {
                 href="#services"
                 className="inline-flex items-center justify-center gap-2 bg-zinc-900/90 hover:bg-zinc-800 border border-zinc-800 text-zinc-200 hover:text-white px-6 py-3.5 rounded-full text-sm font-medium transition-all duration-200"
               >
-                <span>Explore Services</span>
+                <span>Lihat Layanan</span>
                 <Plus className="w-4 h-4 text-zinc-400" />
               </a>
             </div>
@@ -52,16 +52,16 @@ export default function HeroSection() {
             {/* Key Stats Counter */}
             <div className="grid grid-cols-3 gap-6 pt-6 border-t border-zinc-800/80 w-full max-w-lg">
               <div>
-                <div className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">15,000+</div>
-                <div className="text-[11px] font-mono uppercase text-zinc-500 tracking-wider mt-1">PAIRS RESTORED</div>
+                <div className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">15.000+</div>
+                <div className="text-[11px] font-mono uppercase text-zinc-500 tracking-wider mt-1">SEPATU DITANGANI</div>
               </div>
               <div>
                 <div className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">100%</div>
-                <div className="text-[11px] font-mono uppercase text-zinc-500 tracking-wider mt-1">PH-NEUTRAL LAB</div>
+                <div className="text-[11px] font-mono uppercase text-zinc-500 tracking-wider mt-1">FORMULA PH-NETRAL</div>
               </div>
               <div>
-                <div className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">FREE 7KM</div>
-                <div className="text-[11px] font-mono uppercase text-zinc-500 tracking-wider mt-1">DOORSTEP PICKUP</div>
+                <div className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">GRATIS 7KM</div>
+                <div className="text-[11px] font-mono uppercase text-zinc-500 tracking-wider mt-1">ANTAR JEMPUT</div>
               </div>
             </div>
           </div>
@@ -89,10 +89,10 @@ export default function HeroSection() {
               <div className="flex items-center justify-between bg-zinc-900/90 border border-zinc-800/80 rounded-xl px-4 py-3">
                 <div>
                   <div className="text-[10px] font-mono uppercase text-zinc-500 tracking-wider">
-                    LIVE TREATMENT SPECIMEN
+                    PROSES PERAWATAN LANGSUNG
                   </div>
                   <div className="text-sm font-semibold text-zinc-200">
-                    Ultra-Delicate Foam Extraction
+                    Ekstraksi Busa Ultra-Halus
                   </div>
                 </div>
                 <button

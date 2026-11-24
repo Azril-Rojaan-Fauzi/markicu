@@ -4,44 +4,44 @@ export default function PoliciesSection() {
   const protocols = [
     {
       id: "protocol-01",
-      protocolNum: "PROTOCOL 01",
+      protocolNum: "PROTOKOL 01",
       title: "PENERIMAAN",
       description:
-        "Shoes are inspected in rigorous detail upon arrival. Customers are notified regarding delicate vintage materials and stubborn pre-existing dye bleeding before work commences.",
-      tag: "Detailed Pre-Inspection",
+        "Sepatu diinspeksi secara mendalam saat diterima. Pelanggan akan diberitahu terlebih dahulu mengenai bahan rentan atau noda luntur sebelum pengerjaan dimulai.",
+      tag: "Inspeksi Awal Detail",
       dotColor: "bg-emerald-500",
       tagTextColor: "text-emerald-700",
       tagBgColor: "bg-emerald-50 border-emerald-200",
     },
     {
       id: "protocol-02",
-      protocolNum: "PROTOCOL 02",
+      protocolNum: "PROTOKOL 02",
       title: "PEMBAYARAN",
       description:
-        "Payment strictly follows the issued digital invoice. Can be processed either at drop-off or post-completion via QRIS, Instant Bank Transfer, or Cash.",
-      tag: "QRIS & Transfer Ready",
+        "Pembayaran mengikuti invoice digital resmi. Dapat diselesaikan saat serah terima atau setelah pengerjaan selesai via QRIS, Transfer Bank, atau Tunai.",
+      tag: "Siap QRIS & Transfer",
       dotColor: "bg-blue-500",
       tagTextColor: "text-blue-700",
       tagBgColor: "bg-blue-50 border-blue-200",
     },
     {
       id: "protocol-03",
-      protocolNum: "PROTOCOL 03",
-      title: "PICK UP & DELIVERY",
+      protocolNum: "PROTOKOL 03",
+      title: "ANTAR & JEMPUT",
       description:
-        "Complimentary doorstep pickup within a 7km radius from our central workshop. Flat rate distance surcharges apply transparently beyond 7km.",
-      tag: "Direct Doorstep Courier",
+        "Layanan antar jemput gratis dalam radius 7 km dari workshop kami. Tarif jarak tetap diberlakukan secara transparan untuk jarak di atas 7 km.",
+      tag: "Kurir Langsung ke Lokasi",
       dotColor: "bg-amber-500",
       tagTextColor: "text-amber-700",
       tagBgColor: "bg-amber-50 border-amber-200",
     },
     {
       id: "protocol-04",
-      protocolNum: "PROTOCOL 04",
+      protocolNum: "PROTOKOL 04",
       title: "KOMPLAIN & GARANSI",
       description:
-        "100% satisfaction assurance. Complaints received within 1 x 24 hours of delivery qualify for free complimentary re-treatment and review.",
-      tag: "24H Free Re-Treatment",
+        "Jaminan kepuasan 100%. Komplain yang diterima dalam 1 x 24 jam setelah pengantaran berhak mendapatkan cuci ulang gratis dan peninjauan kembali.",
+      tag: "Garansi Cuci Ulang 24 Jam",
       dotColor: "bg-rose-500",
       tagTextColor: "text-rose-700",
       tagBgColor: "bg-rose-50 border-rose-200",
@@ -55,13 +55,13 @@ export default function PoliciesSection() {
         {/* Header */}
         <div className="mb-14">
           <span className="block text-xs font-mono uppercase tracking-wider text-zinc-500 mb-2">
-            // TRANSPARENT ETHICS
+            // KEBIJAKAN &amp; TRANSPARANSI
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight text-zinc-950 mb-4">
-            SERVICE PROTOCOLS & POLICIES
+            STANDAR &amp; KEBIJAKAN LAYANAN
           </h2>
           <p className="text-sm sm:text-base text-zinc-600 max-w-2xl leading-relaxed">
-            Clear standards for intake, guarantee periods, seamless local delivery, and convenient digital payment.
+            Standar yang jelas untuk penerimaan sepatu, masa garansi kepuasan, layanan antar-jemput, dan kemudahan pembayaran digital.
           </p>
         </div>
 

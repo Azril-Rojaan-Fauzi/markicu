@@ -15,42 +15,42 @@ export default function TreatmentsSection() {
       id: "unyellowing",
       name: "Unyellowing",
       tag: "UV Matrix",
-      description: "Oxidation reversal using clinical UV accelerator chamber.",
+      description: "Penghilangan noda kuning oksidasi menggunakan ruangan akselerator UV klinis.",
       price: "$15",
     },
     {
       id: "suede-care",
       name: "Suede Care",
       tag: "Nap Revival",
-      description: "Delicate brass bristle nap revival and hydrophobic barrier seal.",
+      description: "Penyisiran bulu halus suede secara teliti dan pemberian lapisan pelindung hidrofobik.",
       price: "$15",
     },
     {
       id: "leather-care",
       name: "Leather Care",
       tag: "Balm Nourish",
-      description: "Mink balm conditioning, supple anti-creasing, and natural satin luster.",
+      description: "Nutrisi kondisioner mink balm, mencegah kerutan/retak, dan mengembalikan kilau alami.",
       price: "$15",
     },
     {
       id: "whitening",
       name: "Whitening",
       tag: "Pure Pigment",
-      description: "Intensive optical pigment brightening for aged canvas and textiles.",
+      description: "Pencerahan warna intensif dengan pigmen murni untuk bahan kanvas dan kain yang memudar.",
       price: "$15",
     },
     {
       id: "spot-reglue",
       name: "Spot Reglue",
       tag: "Toe / Heel",
-      description: "Flexible elastic polyurethane adhesive bonding for partial separations.",
-      price: "From $15",
+      description: "Pengeleman kembali bagian sol yang terlepas dengan lem poliuretan elastis dan kuat.",
+      price: "Mulai $15",
     },
     {
       id: "full-reglue",
       name: "Full Reglue",
       tag: "Total Rebuild",
-      description: "Complete factory glue ablation, heat activation primer, and press clamp.",
+      description: "Pembersihan total residu lem lama, aktivasi panas dengan primer khusus, dan pengepresan presisi.",
       price: "$30",
     },
   ];
@@ -62,13 +62,13 @@ export default function TreatmentsSection() {
         {/* Header */}
         <div className="mb-14">
           <span className="block text-xs font-mono uppercase tracking-wider text-zinc-500 mb-2">
-            // SPECIFIC TREATMENTS
+            // PERAWATAN KHUSUS
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight text-zinc-950 mb-4">
-            MORE CARE FOR YOUR SHOES.
+            PERAWATAN EKSTRA UNTUK SEPATU ANDA.
           </h2>
           <p className="text-sm sm:text-base text-zinc-600 max-w-2xl leading-relaxed">
-            Specialized restorative interventions targeting sole yellowing, suede dehydration, stiff leather creasing, and delaminated outsoles.
+            Layanan restorasi khusus untuk mengatasi sol menguning, suede kering, kerutan pada bahan kulit, serta lem sol yang terlepas.
           </p>
         </div>
 
@@ -109,7 +109,7 @@ export default function TreatmentsSection() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1 text-xs font-bold tracking-wider uppercase text-blue-600 hover:text-blue-700 group-hover:translate-x-0.5 transition-transform"
                 >
-                  <span>CONSULT</span>
+                  <span>KONSULTASI</span>
                   <ArrowUpRight className="w-3.5 h-3.5" />
                 </a>
               </div>

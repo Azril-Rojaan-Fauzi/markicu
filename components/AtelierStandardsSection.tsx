@@ -7,17 +7,17 @@ export default function AtelierStandardsSection() {
     {
       icon: ShieldCheck,
       title: "PRO SHOE CARE",
-      description: "Certified footwear restorers using 100% pH-neutral solvents.",
+      description: "Spesialis perawatan sepatu bersertifikat menggunakan larutan 100% pH-netral.",
     },
     {
       icon: Sparkles,
       title: "ULTRASONIC CLEAN",
-      description: "Micro-bubble cavitation bath & humidity-regulated air curing.",
+      description: "Pembersihan mikrokavitasi ultrasonik dan pengeringan sirkulasi udara higienis.",
     },
     {
       icon: Truck,
-      title: "7KM FREE PICKUP",
-      description: "Complimentary concierge pickup and prompt scheduled return.",
+      title: "GRATIS ANTAR JEMPUT 7KM",
+      description: "Layanan antar-jemput gratis hingga radius 7 km dengan jadwal yang teratur.",
     },
   ];
 
@@ -30,15 +30,15 @@ export default function AtelierStandardsSection() {
           <div className="lg:col-span-5 flex flex-col items-start lg:sticky lg:top-28">
             <span className="inline-flex items-center gap-2 text-xs font-mono uppercase tracking-wider text-zinc-400 mb-4">
               <span className="w-2 h-2 rounded-full border border-zinc-400" />
-              ATELIER STANDARDS
+              STANDAR ATELIER KAMI
             </span>
 
             <h2 className="text-3xl sm:text-5xl font-black tracking-tight text-white leading-tight mb-6">
-              BRING BACK THE FRESHNESS OF YOUR SHOES.
+              KEMBALIKAN KESEGARAN SEPATU KESAYANGAN ANDA.
             </h2>
 
             <p className="text-sm sm:text-base text-zinc-400 leading-relaxed mb-8">
-              Give your favorite sneakers the meticulous surgical care they deserve. No corrosive laundry chemicals, no washing machine damage — only tailored manual craftsmanship.
+              Berikan sneaker kesayangan Anda perawatan teliti dan higienis. Tanpa bahan kimia keras yang merusak, tanpa mesin cuci — hanya keahlian tangan profesional yang presisi.
             </p>
 
             <a
@@ -47,7 +47,7 @@ export default function AtelierStandardsSection() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-white text-zinc-950 hover:bg-zinc-100 px-7 py-3.5 rounded-full text-sm font-semibold tracking-wide transition-all duration-200 shadow-md hover:scale-[1.02] active:scale-[0.98]"
             >
-              <span>LET&apos;S CLEAN YOUR SHOES</span>
+              <span>CUCI SEPATU SEKARANG</span>
               <ArrowUpRight className="w-4 h-4" />
             </a>
           </div>
@@ -59,10 +59,10 @@ export default function AtelierStandardsSection() {
             <div className="bg-[#121214] border border-zinc-800 rounded-2xl p-6 sm:p-7 shadow-xl">
               <div className="mb-4">
                 <span className="text-[10px] font-mono uppercase tracking-wider text-zinc-500 block mb-1">
-                  LABORATORY GRADE
+                  STANDAR LABORATORIUM
                 </span>
                 <h3 className="text-lg sm:text-xl font-bold text-white">
-                  Climate & Humidity Controlled Workshop
+                  Ruang Workshop dengan Suhu &amp; Kelembapan Terkontrol
                 </h3>
               </div>
 

@@ -23,14 +23,14 @@ export default function CareRegimenSection() {
     {
       id: "deep-clean",
       badge: {
-        label: "BEST SELLER",
+        label: "TERLARIS",
         style: "bg-zinc-950 text-white",
       },
-      duration: "2-3 DAYS",
+      duration: "2-3 HARI",
       title: "KESELURUHAN (DEEP CLEAN)",
-      category: "FULL TREATMENT",
+      category: "PERAWATAN TOTAL",
       description:
-        "Complete shoe cleaning inside and out. Deep insole sterilization, unthreaded lace bath, upper extraction, and outsole de-gumming.",
+        "Pembersihan menyeluruh bagian luar dan dalam. Sterilisasi insole, pencucian tali sepatu, ekstraksi noda upper, hingga pembersihan mendalam outsole.",
       priceUsd: "$35",
       priceIdr: "Rp 85.000",
       imageLabel: "Foto Treatment: Keseluruhan Deep Clean",
@@ -39,14 +39,14 @@ export default function CareRegimenSection() {
     {
       id: "fast-clean",
       badge: {
-        label: "EXPRESS CLEAN",
+        label: "CUCI CEPAT",
         style: "bg-amber-500 text-white",
       },
-      duration: "24 HOURS",
+      duration: "24 JAM",
       title: "FAST CLEAN",
-      category: "RAPID ROTATION",
+      category: "ROTASI CEPAT",
       description:
-        "Essential exterior care. Midsole scuff removal, upper refresh, and traction wash for daily gym pairs or rotation fresheners.",
+        "Perawatan esensial bagian luar. Pembersihan noda midsole, penyegaran upper, dan pembersihan sol untuk sepatu harian atau olahraga.",
       priceUsd: "$25",
       priceIdr: "Rp 60.000",
       imageLabel: "Foto Treatment: Fast Clean Quick Exterior Refresh",
@@ -55,14 +55,14 @@ export default function CareRegimenSection() {
     {
       id: "all-white",
       badge: {
-        label: "SPECIALIZED",
+        label: "SPESIALIS",
         style: "bg-blue-600 text-white",
       },
-      duration: "3-4 DAYS",
+      duration: "3-4 HARI",
       title: "ALL WHITE SHOES",
-      category: "BRIGHTENING REGIMEN",
+      category: "PENCERAH WARNA",
       description:
-        "Tailored optical brightening treatment for pure monochrome sneakers, mesh canvas, and triple-white leather with anti-yellow protection.",
+        "Perawatan khusus pencerah warna untuk sneaker serba putih, bahan kanvas, dan kulit dengan formula perlindungan anti-kuning.",
       priceUsd: "$40",
       priceIdr: "Rp 95.000",
       imageLabel: "Foto Treatment: All White Shoes Brightening Care",
@@ -78,14 +78,14 @@ export default function CareRegimenSection() {
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-16">
           <div className="max-w-2xl">
             <span className="block text-xs font-mono uppercase tracking-wider text-zinc-500 mb-2">
-              // CORE CARE REGIMEN
+              // PAKET PERAWATAN UTAMA
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight text-zinc-950">
-              KEEP YOUR SNEAKERS FRESH.
+              JAGA SNEAKER ANDA TETAP SEGAR.
             </h2>
           </div>
           <p className="text-sm sm:text-base text-zinc-600 max-w-md leading-relaxed">
-            Artisanal restorative treatments engineered specifically for delicate primeknit, butter-soft suede, unsealed archival leather, and daily runners.
+            Perawatan restorasi khusus yang diformulasikan untuk bahan primeknit halus, suede lembut, kulit premium, hingga sepatu harian Anda.
           </p>
         </div>
 
@@ -162,7 +162,7 @@ export default function CareRegimenSection() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-zinc-950 hover:bg-zinc-800 text-white px-8 py-3.5 rounded-full text-sm font-semibold tracking-wide transition-all duration-200 shadow-md hover:scale-[1.02] active:scale-[0.98]"
           >
-            <span>CONTACT VIA WHATSAPP</span>
+            <span>KONSULTASI VIA WHATSAPP</span>
             <ArrowUpRight className="w-4 h-4" />
           </a>
         </div>

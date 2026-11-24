@@ -19,39 +19,39 @@ export default function ArchiveSection() {
   const specimens: SpecimenItem[] = [
     {
       id: "specimen-01",
-      specimenNumber: "SPECIMEN #01",
+      specimenNumber: "SPESIMEN #01",
       shoeName: "AIR JORDAN 1 RETRO HIGH",
-      condition: "Severe sole oxidation, ground mud ingrained into toe-box leather.",
-      beforeImageLabel: "Foto BEFORE: Jordan 1 Kotor & Teroksidasi",
+      condition: "Oksidasi sol yang parah, noda tanah mengendap pada kulit toe-box.",
+      beforeImageLabel: "Foto SEBELUM: Jordan 1 Kotor & Teroksidasi",
       beforeSrc: "/images/archive-aj1-before.webp",
-      afterImageLabel: "Foto AFTER: Jordan 1 Bersih & Unyellowed",
+      afterImageLabel: "Foto SESUDAH: Jordan 1 Bersih & Unyellowed",
       afterSrc: "/images/archive-aj1-after.webp",
-      treatment: "Keseluruhan + Deoxidize",
-      turnaround: "3 Days",
+      treatment: "Deep Clean + Deoksidasi",
+      turnaround: "3 Hari",
     },
     {
       id: "specimen-02",
-      specimenNumber: "SPECIMEN #02",
+      specimenNumber: "SPESIMEN #02",
       shoeName: "COMMON PROJECTS ACHILLES",
-      condition: "Surface scuffs on Italian nappa, dull graying laces and midsole.",
-      beforeImageLabel: "Foto BEFORE: CP Achilles Kusam & Scuffed",
+      condition: "Goresan pada permukaan kulit nappa, tali kusam, dan noda midsole.",
+      beforeImageLabel: "Foto SEBELUM: CP Achilles Kusam & Scuffed",
       beforeSrc: "/images/archive-cp-before.webp",
-      afterImageLabel: "Foto AFTER: CP Achilles Putih Bersih Mengkilap",
+      afterImageLabel: "Foto SESUDAH: CP Achilles Putih Bersih Mengkilap",
       afterSrc: "/images/archive-cp-after.webp",
       treatment: "All White + Leather Balm",
-      turnaround: "2 Days",
+      turnaround: "2 Hari",
     },
     {
       id: "specimen-03",
-      specimenNumber: "SPECIMEN #03",
+      specimenNumber: "SPESIMEN #03",
       shoeName: "YEEZY BOOST 350 TRIPLE WHITE",
-      condition: "Mud saturated translucent outsole and deeply stained knit weave.",
-      beforeImageLabel: "Foto BEFORE: Yeezy 350 Berlumpur & Menguning",
+      condition: "Midsole kotor berlumpur dan serat rajut (knit) yang ternoda pekat.",
+      beforeImageLabel: "Foto SEBELUM: Yeezy 350 Berlumpur & Menguning",
       beforeSrc: "/images/archive-yeezy-before.webp",
-      afterImageLabel: "Foto AFTER: Yeezy 350 Bersih Cerah",
+      afterImageLabel: "Foto SESUDAH: Yeezy 350 Bersih Cerah",
       afterSrc: "/images/archive-yeezy-after.webp",
-      treatment: "Ultrasonic Knit Clean",
-      turnaround: "3 Days",
+      treatment: "Pembersihan Knit Ultrasonik",
+      turnaround: "3 Hari",
     },
   ];
 
@@ -63,14 +63,14 @@ export default function ArchiveSection() {
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-16">
           <div className="max-w-2xl">
             <span className="block text-xs font-mono uppercase tracking-wider text-zinc-500 mb-2">
-              // REAL RESTORATION ARCHIVE
+              // ARSIP HASIL RESTORASI
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight text-zinc-950">
-              SEE THE DIFFERENCE.
+              LIHAT PERBEDAAN NYATA.
             </h2>
           </div>
           <p className="text-sm sm:text-base text-zinc-600 max-w-md leading-relaxed">
-            Strict before-and-after benchmark results. No filters, no digital touch-ups — genuine chemical restoration and deep foam extraction.
+            Hasil nyata sebelum dan sesudah perawatan. Tanpa filter atau editan digital — murni hasil ekstraksi noda mendalam dan restorasi kimia yang aman.
           </p>
         </div>
 
@@ -109,13 +109,13 @@ export default function ArchiveSection() {
                     <ImagePlaceholder
                       label={item.beforeImageLabel}
                       src={item.beforeSrc}
-                      alt={`${item.shoeName} Before Treatment`}
+                      alt={`${item.shoeName} Sebelum Perawatan`}
                       aspectRatio="aspect-[4/5]"
                       dark={false}
                       className="bg-zinc-100"
                     />
                     <span className="absolute bottom-2.5 left-2.5 z-10 text-[10px] font-mono font-bold bg-zinc-950/90 backdrop-blur-xs text-white px-2 py-0.5 rounded-sm uppercase tracking-wider shadow-sm">
-                      BEFORE
+                      SEBELUM
                     </span>
                   </div>
 
@@ -124,13 +124,13 @@ export default function ArchiveSection() {
                     <ImagePlaceholder
                       label={item.afterImageLabel}
                       src={item.afterSrc}
-                      alt={`${item.shoeName} After Treatment`}
+                      alt={`${item.shoeName} Sesudah Perawatan`}
                       aspectRatio="aspect-[4/5]"
                       dark={false}
                       className="bg-blue-50/50"
                     />
                     <span className="absolute bottom-2.5 right-2.5 z-10 text-[10px] font-mono font-bold bg-blue-600/95 backdrop-blur-xs text-white px-2 py-0.5 rounded-sm uppercase tracking-wider shadow-sm">
-                      AFTER
+                      SESUDAH
                     </span>
                   </div>
                 </div>
@@ -139,10 +139,10 @@ export default function ArchiveSection() {
               {/* Card Footer: Treatment & Turnaround */}
               <div className="pt-4 border-t border-zinc-100 flex items-center justify-between text-[11px] font-mono text-zinc-600">
                 <span className="truncate max-w-[170px]" title={item.treatment}>
-                  Treatment: <strong className="text-zinc-900 font-semibold">{item.treatment}</strong>
+                  Layanan: <strong className="text-zinc-900 font-semibold">{item.treatment}</strong>
                 </span>
                 <span>
-                  Turnaround: <strong className="text-zinc-900 font-semibold">{item.turnaround}</strong>
+                  Estimasi: <strong className="text-zinc-900 font-semibold">{item.turnaround}</strong>
                 </span>
               </div>
             </div>

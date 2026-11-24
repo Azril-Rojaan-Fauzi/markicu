@@ -6,37 +6,37 @@ export default function WorkflowSection() {
     {
       number: "01",
       icon: MessageSquare,
-      title: "CONTACT US",
+      title: "HUBUNGI KAMI",
       description:
-        "Chat with us through WhatsApp and send your shoe photos for instant condition evaluation and estimated pricing.",
-      linkText: "IMMEDIATE REPLY",
+        "Chat kami melalui WhatsApp dan kirimkan foto sepatu untuk konsultasi kondisi awal serta estimasi biaya.",
+      linkText: "RESPON CEPAT",
       linkUrl: "https://wa.me/6283829876116?text=Halo%20Markicu,%20mau%20tanya%20estimasi%20cuci%20sepatu",
     },
     {
       number: "02",
       icon: Search,
-      title: "SHOE INSPECTION",
+      title: "INSPEKSI SEPATU",
       description:
-        "We check your shoes in-person, diagnose stain depth, test dye stability, and confirm the ideal treatment regimen with you.",
-      linkText: "DIGITAL SPEC SHEET",
+        "Kami periksa sepatu secara langsung, cek kedalaman noda, uji ketahanan warna, dan konfirmasikan perawatan terbaik.",
+      linkText: "DETAIL KONDISI",
       linkUrl: "#policies",
     },
     {
       number: "03",
       icon: Sparkles,
-      title: "PRO CLEANING",
+      title: "PEMBERSIHAN PROFESIONAL",
       description:
-        "We execute the tailored care regimen using pH-neutral laboratory formulas, horsehair detailing, and controlled air curing.",
-      linkText: "HOSPITAL GRADE",
+        "Pembersihan dilakukan menggunakan formula lab pH-netral, sikat bulu kuda khusus, dan pengeringan ruang steril.",
+      linkText: "HIGIENIS & AMAN",
       linkUrl: "#about",
     },
     {
       number: "04",
       icon: Truck,
-      title: "DELIVERY RETURN",
+      title: "PENGANTARAN KEMBALI",
       description:
-        "Your fresh sneakers are delivered to your doorstep sealed in custom breathable dust bags, ready for your next outfit.",
-      linkText: "FREE 7KM DROP-OFF",
+        "Sepatu Anda yang sudah bersih dikemas rapi dalam dust bag khusus dan diantar kembali, siap dipakai bergaya.",
+      linkText: "GRATIS ANTAR 7KM",
       linkUrl: "https://wa.me/6283829876116?text=Halo%20Markicu,%20apakah%20lokasi%20saya%20masuk%20free%20pickup?",
     },
   ];
@@ -48,10 +48,10 @@ export default function WorkflowSection() {
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="block text-xs font-mono uppercase tracking-wider text-zinc-500 mb-2">
-            // ZERO FRICTION WORKFLOW
+            // PROSES MUDAH &amp; CEPAT
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight text-white leading-tight">
-            GET YOUR SHOES CLEANED IN 4 EASY STEPS.
+            CUCI SEPATU DALAM 4 LANGKAH MUDAH.
           </h2>
         </div>
 
